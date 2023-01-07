@@ -1,0 +1,85 @@
+.home_section {
+  background-image: url('../assests/bg1.jpg');
+  background-size: 100% 120%;
+}
+.header_height {
+  height: 100vh;
+}
+.headerColor {
+  color: #ffffff;
+}
+.sec_bg {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.btn_custom {
+  background-color: #ff4c00;
+  color: #ffffff;
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+.btn_custom a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.box_border {
+  border: solid 1px #ececec !important;
+  height: 380px;
+}
+.icons {
+  width: 84px;
+  height: 84px;
+  clip-path: circle(40%);
+  text-align: center;
+  line-height: 84px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  background: #ff4c00;
+  transform: translate(-50%, -50%);
+}
+.icons img {
+  color: #ffffff;
+  height: 40%;
+}
+@media screen and (max-width: 1025px) {
+  .home_section {
+    background-size: 100% 100%;
+  }
+  .header_height {
+    height: 90vh;
+  }
+}
+@media screen and (max-width: 769px) {
+  .header_height {
+    height: 80vh;
+  }
+}
+@media screen and (max-width: 426px) {
+  .home_section {
+    background-size: 100% 80%;
+  }
+  .header_height {
+    height: 75vh;
+  }
+  .headerColor {
+    font-size: 1.5rem;
+  }
+  .lead {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 321px) {
+  .home_section {
+    background-size: 100% 80%;
+  }
+  .header_height {
+    height: 60vh;
+  }
+  .headerColor {
+    font-size: 1.25rem;
+  }
+  .lead {
+    font-size: 0.95rem;
+  }
+}

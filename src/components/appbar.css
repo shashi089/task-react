@@ -1,0 +1,32 @@
+.navbar-brand,
+.nav-link {
+  color: #fff !important;
+  font-weight: 600;
+}
+.navbar-brand {
+  font-size: 1.5rem;
+}
+.nav-link {
+  font-size: 1.1rem;
+}
+.navbar {
+  background-color: none;
+  position: fixed;
+  width: 100%;
+  padding: 10px;
+  z-index: 1;
+}
+.navbar-colorChange {
+  /* background-color: #121212 !important; */
+  background: rgba(0, 0, 0, 0.8) !important;
+  z-index: 1;
+}
+.navbar-toggler {
+  background-color: #fff !important;
+}
+
+@media screen and (max-width: 769px) {
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+}
